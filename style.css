@@ -163,7 +163,7 @@ body {
 }
 
 .confirmed-message img {
-    width: 80px;
+    width: 64px;
 
 }
 
@@ -225,6 +225,7 @@ body {
     .left {
         padding: 2.5rem 1.5rem;
         grid-row: 2;
+        text-align: left;
     }
 
     .left-info h1 {
@@ -247,7 +248,8 @@ body {
         padding: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        padding-top: 8rem;
     }
 
     .confirmed-message button {
